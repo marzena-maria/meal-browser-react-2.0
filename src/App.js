@@ -1,13 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
+
 import Homepage from './components/Homepage/Homepage'
 import SearchByName from "./components/SearchByName/SearchByName";
 import SearchByMainIngredient from "./components/SearchByMainIngredient/SearchByMainIngredient";
 import SearchByCategory from './components/SearchByCategory/SearchByCategory';
 import SearchByArea from './components/SearchByArea/SearchByArea';
+import RandomRecipe from './components/RandomRecipe/RandomRecipe';
+import Favourites from './components/Favourites/Favourites';
 
-function App() {
+const App = () => {
+
   return (
     <Router>
       <div className="App">
@@ -28,6 +32,12 @@ function App() {
               <li>
                 <Link to="/search-by-area">Search by Area</Link>
               </li>
+              <li>
+                <Link to="/recipe-of-the-day">Recipe of the Day</Link>
+              </li>
+              <li>
+                <Link to="/favourire-recipes">Favourites</Link>
+              </li>
             </ul>
           </nav>
 
@@ -43,6 +53,12 @@ function App() {
           </Route>
           <Route path="/search-by-area">
             <SearchByArea />
+          </Route>
+          <Route path="/recipe-of-the-day">
+            <RandomRecipe />
+          </Route>
+          <Route path="/favourire-recipes">
+            <Favourites />
           </Route>
           <Route path="/">
             <Homepage />
