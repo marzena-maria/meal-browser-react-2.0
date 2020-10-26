@@ -37,7 +37,7 @@ const SingleRecipe = (props) => {
                         <li>{element}</li>
                     ))}
                 </ul>
-                <p class='instruction'>{singleRecipe.strInstructions}</p>
+                <p className='instruction'>{singleRecipe.strInstructions}</p>
 
                 <img src={singleRecipe.strMealThumb} />
                 <br />
