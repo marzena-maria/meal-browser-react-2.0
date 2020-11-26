@@ -43,10 +43,10 @@ const SearchByName = () => {
     return (
         <div>
             <h1>Search by Name</h1>
-            <Input onChange={value => setInputValue(value)}/>,
+            <Input onChange={value => setInputValue(value)}/>
             <DisplayResults 
                 onClick={setClickedMeal}
-                listOfResults={meals}/>,
+                listOfResults={meals}/>
             <SingleRecipe singleRecipe={clickedMeal}/>
         </div>
     )

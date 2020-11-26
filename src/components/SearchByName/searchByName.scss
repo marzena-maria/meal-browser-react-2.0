@@ -1,0 +1,48 @@
+.inputContainer {
+    margin: 20px;
+    text-align: center;
+    //outline: 2px solid green;
+
+    .inputLabel,
+    .inputField {
+        //outline: 2px solid red;
+        padding: 10px;
+        margin: 10px 10px 0 10px;  
+    }
+
+    .inputField {
+        box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+        border-radius: 10px;
+        width: 70vw;
+    }
+}
+
+// tablet
+@media only screen and (min-width:526px) {
+    .inputContainer {
+
+        .inputLabel,
+        .inputField {
+            font-size: 18px;
+        }
+    
+        .inputField {
+            width: 35vw;
+        }
+    }
+}
+
+// desktop
+@media only screen and (min-width : 1038px) {
+    .inputContainer {
+
+        .inputLabel,
+        .inputField {
+            font-size: 20px;
+        }
+    
+        .inputField {
+            width: 25vw;
+        }
+    }
+}

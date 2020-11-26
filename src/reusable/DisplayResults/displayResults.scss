@@ -1,0 +1,61 @@
+.resultsContainer {
+    background-color: lightgray;
+    
+    ul.displayResults {
+        width: 80vw;
+        margin-top: 0;
+        padding: 10px;
+        list-style-type: none;
+
+        li {
+            font-size: 18px;
+            margin: 15px;
+
+            p {
+                font-size: 15px;
+                text-decoration: underline;  
+                color: #cf1578;
+            }
+        }
+    }
+
+    .noResultFound {
+
+    }
+}
+
+
+// tablet
+@media only screen and (min-width:526px) {
+    .resultsContainer {
+        
+        ul.displayResults {
+    
+            li {
+                font-size: 28px;
+    
+                p {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+// desktop
+@media only screen and (min-width : 1038px) {
+    .resultsContainer {
+        
+        ul.displayResults {
+            width: 25vw;
+    
+            li {
+                font-size: 15px;
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
