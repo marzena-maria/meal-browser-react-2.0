@@ -4,7 +4,7 @@ import "./App.css";
 
 import Homepage from './components/Homepage/Homepage'
 import SearchByName from "./components/SearchByName/SearchByName";
-// import SearchByMainIngredient from "./components/SearchByMainIngredient/SearchByMainIngredient";
+import SearchByFirstLetter from "./components/SearchByFirstLetter/SearchByFirstLetter";
 // import SearchByCategory from './components/SearchByCategory/SearchByCategory';
 // import SearchByArea from './components/SearchByArea/SearchByArea';
 import RandomRecipe from './components/RandomRecipe/RandomRecipe';
@@ -24,10 +24,10 @@ const App = () => {
               <li>
                 <Link to="/search-by-name">Search by Name</Link>
               </li>
-              {/* <li>
-                <Link to="/search-by-main-ingredient">Search by Main Ingredient</Link>
-              </li>
               <li>
+                <Link to="/search-by-first-letter">Search by First Letter</Link>
+              </li>
+              {/*<li>
                 <Link to="/search-by-category">Search by Category</Link>
               </li>
               <li>
@@ -49,10 +49,10 @@ const App = () => {
           <Route path="/search-by-name">
             <SearchByName />
           </Route>
-          {/* <Route path="/search-by-main-ingredient">
-            <SearchByMainIngredient />
+          <Route path="/search-by-first-letter">
+            <SearchByFirstLetter />
           </Route>
-          <Route path="/search-by-category">
+          {/* <Route path="/search-by-category">
             <SearchByCategory />
           </Route>
           <Route path="/search-by-area">
