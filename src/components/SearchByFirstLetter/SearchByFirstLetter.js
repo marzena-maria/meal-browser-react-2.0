@@ -38,26 +38,27 @@ const SearchByFirstLetter = () => {
     const oneLetter = allLetters.split('');
     const setOneLetter = oneLetter.map(letter => (
         <button 
+            className='letterButton'
             onClick={() => {setFirstLetter(letter)}}>
             {letter}
         </button>
     ));
 
     return (
-        <div>
+        <div className='byNameContainer'>
             <h1>Search by First Letter</h1>
-            {/* <Input onChange={value => setInputValue(value)}/> */}
 
-            <div>
-                <ul>
-                    {setOneLetter}
-                </ul>
+            <div className='allLetterButtons'>
+                {setOneLetter}        
             </div>
 
-            <DisplayResults 
-                onClick={setClickedMeal}
-                listOfResults={meals}/>
-            <SingleRecipe singleRecipe={clickedMeal}/>
+            <main className='main'>
+                <DisplayResults 
+                    onClick={setClickedMeal}
+                    listOfResults={meals}/>
+                <SingleRecipe singleRecipe={clickedMeal}/>
+            </main>
+
         </div>
     )
 }

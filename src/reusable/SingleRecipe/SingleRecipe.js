@@ -32,6 +32,8 @@ const SingleRecipe = (props) => {
                 <h2>{singleRecipe.strMeal}</h2>
                 <p>{singleRecipe.strCategory} ● {singleRecipe.strArea}</p>
 
+                <img src={singleRecipe.strMealThumb} />
+
                 <ul className='measuresAndIngredients'>
                     {measuresAndIngredients.map(element => (
                         <li>{element}</li>
@@ -39,7 +41,6 @@ const SingleRecipe = (props) => {
                 </ul>
                 <p className='instruction'>{singleRecipe.strInstructions}</p>
 
-                <img src={singleRecipe.strMealThumb} />
                 <br />
                 <a href={singleRecipe.strYoutube} target="_blank">See Video</a>
                 <p>Source: {singleRecipe.strSource}</p>

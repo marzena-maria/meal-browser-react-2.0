@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 
 import Homepage from './components/Homepage/Homepage'
 import SearchByName from "./components/SearchByName/SearchByName";
@@ -27,12 +27,6 @@ const App = () => {
               <li>
                 <Link to="/search-by-first-letter">Search by First Letter</Link>
               </li>
-              {/*<li>
-                <Link to="/search-by-category">Search by Category</Link>
-              </li>
-              <li>
-                <Link to="/search-by-area">Search by Area</Link>
-              </li> */}
               <li>
                 <Link to="/recipe-of-the-day">Recipe of the Day</Link>
               </li>
@@ -52,12 +46,6 @@ const App = () => {
           <Route path="/search-by-first-letter">
             <SearchByFirstLetter />
           </Route>
-          {/* <Route path="/search-by-category">
-            <SearchByCategory />
-          </Route>
-          <Route path="/search-by-area">
-            <SearchByArea />
-          </Route> */}
           <Route path="/recipe-of-the-day">
             <RandomRecipe />
           </Route>
