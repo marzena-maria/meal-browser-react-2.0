@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The project uses the MealDB API available at the address: https://www.themealdb.com/api.php
+Work on this project is still ongoing.
+
+Click to check the LIVE version: https://marzena-maria.github.io/fashion-splash/ 
+
 ## Available Scripts
 
 In the project directory, you can run:
