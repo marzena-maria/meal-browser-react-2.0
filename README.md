@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The project uses the MealDB API available at the address: https://www.themealdb.com/api.php
 Work on this project is still ongoing.
 
-Click to check the LIVE version: https://marzena-maria.github.io/fashion-splash/ 
+Click to check the LIVE version: https://marzena-maria.github.io/meal-browser-react-2.0/
 
 ## Available Scripts
 
