@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/meal-browser-react-2.0/static/css/main.a2dc8759.chunk.css",
+    "main.js": "/meal-browser-react-2.0/static/js/main.7fb8c99f.chunk.js",
+    "main.js.map": "/meal-browser-react-2.0/static/js/main.7fb8c99f.chunk.js.map",
+    "runtime-main.js": "/meal-browser-react-2.0/static/js/runtime-main.115d3424.js",
+    "runtime-main.js.map": "/meal-browser-react-2.0/static/js/runtime-main.115d3424.js.map",
+    "static/js/2.cf46d82e.chunk.js": "/meal-browser-react-2.0/static/js/2.cf46d82e.chunk.js",
+    "static/js/2.cf46d82e.chunk.js.map": "/meal-browser-react-2.0/static/js/2.cf46d82e.chunk.js.map",
+    "index.html": "/meal-browser-react-2.0/index.html",
+    "precache-manifest.88ede39520ada23456604f33941c14b0.js": "/meal-browser-react-2.0/precache-manifest.88ede39520ada23456604f33941c14b0.js",
+    "service-worker.js": "/meal-browser-react-2.0/service-worker.js",
+    "static/css/main.a2dc8759.chunk.css.map": "/meal-browser-react-2.0/static/css/main.a2dc8759.chunk.css.map",
+    "static/js/2.cf46d82e.chunk.js.LICENSE.txt": "/meal-browser-react-2.0/static/js/2.cf46d82e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.115d3424.js",
+    "static/js/2.cf46d82e.chunk.js",
+    "static/css/main.a2dc8759.chunk.css",
+    "static/js/main.7fb8c99f.chunk.js"
+  ]
+}
